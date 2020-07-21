@@ -1,4 +1,4 @@
-# Deep Transfer Learning for sleep staging
+# Deep Transfer Learning for Sleep Staging
 Evaluation of multiple Transfer Learning methods to improve the performance of automated sleep staging with a Deep Learning network.
 Building on the Intra- and Inter-epoch Temporal Context Network (IITNet), presented 2019 by Hogeon Seo, Seunghyeok Back, Seongju Lee, Deokhwan Park, Tae Kim and Kyoobin Lee (available online at [https://arxiv.org/abs/1902.06562](https://arxiv.org/abs/1902.06562)).
 
