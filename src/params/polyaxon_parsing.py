@@ -64,7 +64,7 @@ def _add_load_save_parameters(parser):
         # Override normal save_path.
         '--save_path',
         # >>> @sp - add local and remote save paths
-        default="D:/shhs1/processed/training/",
+        default="D:/sleep-edf-v1/sleep-cassette/processed/training/",
         # "/resources/sa6pr7/sleep-edf-v1/sleep-cassette/processed/training/",    # Winslow sleep-edf
         # "/resources/sa6pr7/physionet_challenge/processed/training/",    # Winslow physionet
         # "D:/sleep-edf-v1/sleep-cassette/processed/training/",   # local sleep-edf
@@ -119,7 +119,7 @@ def _add_load_parameters(parser):
         '--dataset_name',
         # required if get_raw_data_from_local_path=True or if running on Marvin
         # implemented: deep_sleep and physionet_challenge
-        default="shhs1",  # "deep_sleep",   # "physionet_challenge", # shhs1    # @sp - add SHHS dataset
+        default="deep_sleep",  # "deep_sleep",   # "physionet_challenge", # shhs1    # @sp - add SHHS dataset
         type=str
     )
 
@@ -127,7 +127,7 @@ def _add_load_parameters(parser):
     parser.add_argument(
         '--data_already_processed',
         # if the data is already processed, load that for model training.
-        default=False,
+        default=True,
         type=bool
     )
     # <<< @sp

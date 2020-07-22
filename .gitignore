@@ -1,3 +1,4 @@
 /src/transferlearning/mdl_chkpts/iitnet_cnn_bilstm_raw.hdf5
 /.idea/
 /notebooks/Sandra/.ipynb_checkpoints/
+/src/transferlearning/mdl_chkpts/

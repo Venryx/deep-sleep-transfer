@@ -137,8 +137,8 @@ def preprocess_shhs_data():
     # Set in polyaxon-params: load=0, experiment-uuid=iitnet_0, get_raw_data_from_local_path=1,
     #                         data_already_processed=False, dataset_name=shhs1,
     #                         channel-types, channel-names, frequency, ch_idx_list
-    # Set in preprocess_data_task_ssc: line 106 --> 7
-    # input_path_utils: base_path = "Z:/shhs/polysomnography/"
+    # Set in preprocess_data_task_ssc: line 106 --> 14/15/16
+    # input_path_utils: base_path = "Z:/"
 
     # Get data
     data_int = DataInt(save_path=params.plx["save_path"],
@@ -208,4 +208,4 @@ def cleanup_data(params, is_winslow):
 if __name__ == "__main__":
     preprocess_shhs_data()
     # preprocess_sleepedf_data()
-    # preprocess_physionet_data()      # already done
+    # preprocess_physionet_data()
