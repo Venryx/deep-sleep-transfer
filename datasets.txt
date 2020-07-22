@@ -1,0 +1,7 @@
+Datasets can be downloaded from these websites:
+
+PhysioNet Dataset: https://physionet.org/content/challenge-2018/1.0.0/
+Sleep-EDF Dataset: https://physionet.org/content/sleep-edfx/1.0.0/#ref4
+SHHS Dataset: https://sleepdata.org/datasets/shhs
+
+The path to the dataset is set in src/data/input_path_utils.py (l.57)
