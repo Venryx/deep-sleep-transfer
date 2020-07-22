@@ -84,4 +84,5 @@ def main():
 
 
 if __name__ == "__main__":
+    # ! if not running on Polyaxon, set environment variable "POLYAXON_NO_OP=1"
     main()
