@@ -292,7 +292,7 @@ def create_convolutional_layers(input_layers, first_filters):
         # connect to fifth stage layers
         x_5 = connect_stage_layers(layers_stage5, x_4)
 
-        x_5 = Dropout(0.5)(x_5)
+        x_5 = Dropout(0.7)(x_5)
 
         output_layers.append(x_5)
 
