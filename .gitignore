@@ -2,3 +2,6 @@
 /.idea/
 /notebooks/Sandra/.ipynb_checkpoints/
 /src/transferlearning/mdl_chkpts/
+/src/transferlearning/results/
+/src/transferlearning/tf_logs/
+/src/transferlearning/trained_models/
